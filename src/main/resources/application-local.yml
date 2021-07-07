@@ -1,0 +1,13 @@
+logging:
+  level:
+     com.mckesson.connect.portal.deleteservice: DEBUG
+  config:
+  pattern:
+    console: "%d %-5level [%thread] [%X{USERIP}] [%X{PRINCIPAL}] [%X{USERHEADER}] %logger : %msg%n"
+
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@smowcmite.mckesson.com:1521:L510
+    username: VAPUSER
+    password: NEWPORTAL

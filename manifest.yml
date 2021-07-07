@@ -1,0 +1,9 @@
+---
+applications:
+- name: connect-portal-delete-service
+  memory: 1G
+  instances: 2
+  services: 
+  - config-server
+  - auto-scaler
+  - dynatrace-collector

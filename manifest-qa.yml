@@ -1,0 +1,7 @@
+---
+applications:
+- name: connect-portal-delete-service
+  memory: 1G
+  instances: 1
+  services: 
+  - config-server
